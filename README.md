@@ -1,3 +1,7 @@
+1. Install COMPASS: https://github.com/opera-adt/COMPASS
+   
+`conda install -c conda-forge compass`
+
 1. Activate the environment 
 
 ```
