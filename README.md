@@ -2,13 +2,16 @@
    
 `conda install -c conda-forge compass`
 
-1. Activate the environment 
+2. Clone this repository.
+
+`https://github.com/geoscience-aman/orchestrate_COMPASS.git`
+
+3. Activate the environment
 
 ```
-cd COMPASS
-conda env create --file environment.yml
+cd orchestrate_COMPASS
+conda env create --file custom_compass_environment_no_builds.yml
 conda activate compass
-python -m pip install -e .
 ```
 
 2. Clip the DEM to the scene size. 
