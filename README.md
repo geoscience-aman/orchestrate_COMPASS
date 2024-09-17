@@ -4,7 +4,7 @@
 
 2. Clone this repository.
 
-`https://github.com/geoscience-aman/orchestrate_COMPASS.git`
+`git clone https://github.com/geoscience-aman/orchestrate_COMPASS.git`
 
 3. Activate the `compass` environment.
 
