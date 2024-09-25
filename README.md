@@ -27,7 +27,7 @@ E.g. (Run this on the NCI to avoid copying over the full DEM)
 
 5. Find the stack of SLC.
 
-`python3 scene_stack_finder.py S1A_IW_SLC__1SSH_20230130T130918_20230130T130945_047013_05A3A4_9800 --max_neighbors 10 --max_perpendicular_baseline 8 --max_temporal_baseline 400 --output_file file_ids.txt`
+`python3 scene_stack_finder.py S1A_IW_SLC__1SSH_20230130T130918_20230130T130945_047013_05A3A4_9800 --max_neighbors 10 --max_perpendicular_baseline 10 --max_temporal_baseline 400 --id_file file_ids.txt`
 
 6. Download the resulting safe files.
 
